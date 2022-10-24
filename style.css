@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+
+body{
+  /* background-image: url(); */
+
+  background-image: url(assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-position: fixed;
+  background-position: 0% 10%;
+  background-size: cover;
+  /* background-size: 100vw 100vh; */
+  /* background-repeat: no-repeat; */
+  height: 100vh;
+  width: 100vw;
+
+
+}
+
+
+body::before{
+ 
+  /* background-color: rgb(31 34 68 / 78%); */
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /* top: 0%;
+  left: 0; */
+  /* background-color: rgb(38 42 80 / 79%); */
+  background-color: rgb(17 26 59 / 74%);
+  z-index: -1;
+
+}
+
+
+/* body::before{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 100vh;
+  z-index: 1;
+  content: "";
+  background: rgba(214, 46, 46, 0.48);
+} */
+
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar{
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+}
+
+.navbar>div:nth-child(2){
+  flex:0.5
+}
+
+.list{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  display: flex;
+  list-style: none;
+  color: #e1ad33;
+}
+
+.list li{
+  width: 100px;
+  margin-left: 17px;
+  text-align: center;
+}
+
+
+.logo{
+  /* margin-left: 40px; */
+  height: 40px;
+}
+
+.button-small{
+  /* margin-right: 70px; */
+  background-color: #fe515f;
+  color:#ffffff;
+  padding: 6px 19px;
+  font-size: 20px;
+  border: none;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hero-heading{
+  
+  position: relative;
+  top: 30px;
+  font-family: 'Red Rose',cursive;
+  color:#e1ad33 ;
+  font-size:6.5rem;
+  text-align:center;
+  padding: 0% 280px;
+  font-weight: 700;
+  
+}
+
+
+.button-large{
+  margin-top: 50px;
+  font-size: 1.4rem;
+  padding: 15px 35px;
+  font-weight: 500;
+  background-color: #fe515f;
+  color: #ffffff;
+  border: none;
+}
+
+.bottom{
+  position: absolute;
+  /* display: none; */
+  right:  80px;
+  bottom: 30px;
+}
+
+.bottom img{
+  height: 150px;
+}
+
+
